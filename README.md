@@ -1,7 +1,5 @@
 # Consulting Site Best Practices
 
-**Note for Hampton:** Consider addressing each CTA as quickly as possible with a direct tool that gets data for dogfooding. Every call to action should immediately give the visitor something usable to play with, while quietly capturing the context needed to continue the work. The tool itself is the start of the dogfooding process.
-
 Value-first approach for consulting sites. Jump straight into usable output. Assume the right customer is already in the room. Demonstrate competence through the work itself. Optional context for those who want it. Continuous handoff so the next step continues what just started.
 
 ## Core Principles
