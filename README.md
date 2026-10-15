@@ -1,5 +1,7 @@
 # Consulting Site Best Practices
 
+**Note for Hampton:** Consider addressing each CTA as quickly as possible with a direct tool that gets data for dogfooding. Every call to action should immediately give the visitor something usable to play with, while quietly capturing the context needed to continue the work. The tool itself is the start of the dogfooding process.
+
 Value-first approach for consulting sites. Jump straight into usable output. Assume the right customer is already in the room. Demonstrate competence through the work itself. Optional context for those who want it. Continuous handoff so the next step continues what just started.
 
 ## Core Principles
@@ -10,6 +12,7 @@ Value-first approach for consulting sites. Jump straight into usable output. Ass
 - **Explanation is opt-in.** Default path has no preamble. A toggle surfaces the why and how only for those who ask.
 - **Progress is continuous.** The artifact and context carry forward into the next conversation or call so there is no cold start.
 - **Engagement signals fit.** Refining, saving, or continuing the artifact is the qualification. No extra forms.
+- **Every CTA is a tool.** Address each call to action with a direct, playable tool that delivers value and collects dogfooding data at the same time.
 
 ## Default Path (No Preamble)
 
@@ -72,6 +75,7 @@ These notes can be collapsed again. They do not interrupt the default path or ap
 - Structure the background data (intent, constraints, suggested first ship, refinement history) so the handoff is high-context.
 - Frame every CTA as continuation of work already done, not as a new sales conversation.
 - The site itself dogfoods the principle: it ships a useful response to the visitor’s input before any extended engagement.
+- Address each CTA as quickly as possible with a direct tool that lets the visitor play with the value while collecting the data needed for dogfooding.
 
 ## Result
 
