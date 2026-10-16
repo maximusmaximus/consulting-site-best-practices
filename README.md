@@ -35,7 +35,7 @@ Deeper tooling that makes the experience live, persistent, and fully agent-recep
 - Persist the session (unique link) so the artifact, refinements, and context can be reopened or shared.
 - Live availability: real-time or daily-updated spots remaining and next session windows, with a claim-spot or filtered calendar action that attaches the full context.
 - Service-mode chips that annotate the artifact and pre-select the handoff type.
-- Full AI agent readiness: Markdown content negotiation, API catalog or MCP-style discovery for booking/artifact tools, machine-readable calendar endpoints, and verification against isitagentready.com.
+- Full AI agent readiness: Markdown content negotiation, API catalog or MCP-style discovery for booking/artifact tools, machine-readable calendar endpoints, and verification against agent-readiness scanners.
 - Background structured capture of intent, constraints, refinement history, and preferred session so the handoff is high-context for both human and agent use.
 
 ## Default Path (No Preamble)
@@ -87,7 +87,7 @@ Minimum features:
 - Toolable CTAs and interactions (not pure JavaScript walls) so an agent can generate an artifact, refine, or continue on behalf of a user.
 - Content accessible in agent-friendly formats where practical (Markdown negotiation, clear text).
 
-Reference check: https://isitagentready.com/hamptonmaxwell.ai
+Reference check: agent-readiness scanners such as isitagentready.com
 
 The goal is that an AI agent can crawl the site, understand the offer, and help a user take the next step (lookup, calendar add, booking with context) the same way a human can.
 
