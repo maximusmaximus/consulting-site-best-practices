@@ -12,6 +12,7 @@ Value-first approach for consulting sites. Jump straight into usable output. Ass
 - **Engagement signals fit.** Refining, saving, or continuing the artifact is the qualification. No extra forms.
 - **Every CTA is a tool.** Address each call to action with a direct, playable tool that delivers value and collects dogfooding data at the same time.
 - **Time-sensitive availability is part of the continuation.** Surface upcoming sessions and remaining spots as concrete next steps, not as pressure.
+- **AI agent readiness is the minimum.** If you sell AI services, the site itself must be usable by AI agents. People interested in AI already use it (often without realizing) to look people up, add events to calendars, research, or book. Make the site crawlable and toolable.
 
 ## Default Path (No Preamble)
 
@@ -51,6 +52,21 @@ Value-first approach for consulting sites. Jump straight into usable output. Ass
 5. **Handoff with zero reset**
    Booking confirmation and calendar invite carry the generated snapshot, micro-features, and refinement history. The call starts as the next increment, not an introduction. Limited spots make the continuation concrete rather than open-ended.
 
+## AI Agent Readiness (Minimum Requirements)
+
+If the site sells AI consulting or services, it must itself be receptive to AI agents. Most people interested in AI already use it (calendar adds, lookups, research, booking) often without explicitly thinking of it as “using AI.”
+
+Minimum features:
+- Clear, crawlable structure and robots.txt / sitemap so agents can discover and index the site.
+- Structured data / machine-readable content so agents can extract key info (who you are, what you offer, how to book, availability).
+- Calendar or booking endpoints that agents can interact with (add to cal, check spots, book with context).
+- Toolable CTAs and interactions (not pure JavaScript walls) so an agent can generate an artifact, refine, or continue on behalf of a user.
+- Content accessible in agent-friendly formats where practical (Markdown negotiation, clear text).
+
+Reference check: https://isitagentready.com/hamptonmaxwell.ai
+
+The goal is that an AI agent can crawl the site, understand the offer, and help a user take the next step (lookup, calendar add, booking with context) the same way a human can.
+
 ## Optional “Why and How” (Off by Default)
 
 A quiet toggle or secondary link: **Show the reasoning.**
@@ -69,6 +85,7 @@ These notes can be collapsed again. They do not interrupt the default path or ap
 - Explanation is available on request rather than required.
 - Engagement with the artifact (refine, save, book) is the only signal needed. No additional qualification steps.
 - Time-sensitive session availability is factual information that helps the right customer act, not a sales tactic.
+- AI agents will interact with the site on behalf of users. The site must support that.
 
 ## Implementation Notes
 
@@ -79,7 +96,8 @@ These notes can be collapsed again. They do not interrupt the default path or ap
 - The site itself dogfoods the principle: it ships a useful response to the visitor’s input before any extended engagement.
 - Address each CTA as quickly as possible with a direct tool that lets the visitor play with the value while collecting the data needed for dogfooding.
 - Surface time-sensitive upcoming sessions and remaining spots directly under or inside the primary Continue this tool (e.g., live count, next available window, claim-spot button that pre-loads the artifact). Keep the language factual and continuation-oriented.
+- Ensure the site meets basic AI agent readiness so that agents can crawl it, extract structured info, and interact with booking or continuation tools. Check against standards such as those measured at isitagentready.com.
 
 ## Result
 
-Right customers get straight to usable output and a continuous handoff. Anyone who wants the why and how can turn it on without changing the core experience for everyone else. The first interaction starts the real work and demonstrates competence at the same time. Limited spots and upcoming sessions make the next step concrete without adding friction or preamble.
+Right customers get straight to usable output and a continuous handoff. Anyone who wants the why and how can turn it on without changing the core experience for everyone else. The first interaction starts the real work and demonstrates competence at the same time. Limited spots and upcoming sessions make the next step concrete without adding friction or preamble. The site is usable by both humans and the AI agents they already rely on.
