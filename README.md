@@ -14,6 +14,30 @@ Value-first approach for consulting sites. Jump straight into usable output. Ass
 - **Time-sensitive availability is part of the continuation.** Surface upcoming sessions and remaining spots as concrete next steps, not as pressure.
 - **AI agent readiness is the minimum.** If you sell AI services, the site itself must be usable by AI agents. People interested in AI already use it (often without realizing) to look people up, add events to calendars, research, or book. Make the site crawlable and toolable.
 
+## Short-Term Goals (Site Development)
+
+Quick, high-impact changes that establish the value-first path with minimal engineering.
+
+- Replace the default homepage text with a single clear prompt: “Describe what’s in your head that isn’t on the screen yet.” + generate button.
+- On submit, immediately return a static or lightly templated artifact (alignment snapshot + 2–3 micro-features + one-day shipping seed) based on the input.
+- Add a simple “Show the reasoning” toggle that reveals the existing philosophy, services, about, and diagram content.
+- Change the primary CTA to “Continue this” and pre-fill the calendar invite or email with the generated artifact text.
+- Add a static or manually updated line under the CTA: “Next available sessions: [date] — X spots left this week.”
+- Ensure basic crawlability: valid robots.txt, sitemap.xml, and clean text content so agents can read the page.
+- Add minimal structured data (Person or Service schema) for name, offer, and booking method.
+
+## Medium-Term Goals (Site Development)
+
+Deeper tooling that makes the experience live, persistent, and fully agent-receptive.
+
+- Make the artifact generation dynamic (LLM-backed or rule-based refinement that updates live on user edits).
+- Add interactive refinement controls (“Narrow the audience”, “Smallest proof”, “Remove this assumption”) that rewrite the artifact in place and log the changes.
+- Persist the session (unique link) so the artifact, refinements, and context can be reopened or shared.
+- Live availability: real-time or daily-updated spots remaining and next session windows, with a claim-spot or filtered calendar action that attaches the full context.
+- Service-mode chips that annotate the artifact and pre-select the handoff type.
+- Full AI agent readiness: Markdown content negotiation, API catalog or MCP-style discovery for booking/artifact tools, machine-readable calendar endpoints, and verification against isitagentready.com.
+- Background structured capture of intent, constraints, refinement history, and preferred session so the handoff is high-context for both human and agent use.
+
 ## Default Path (No Preamble)
 
 1. **Direct entry**
