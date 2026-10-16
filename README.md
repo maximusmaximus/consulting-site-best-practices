@@ -11,6 +11,7 @@ Value-first approach for consulting sites. Jump straight into usable output. Ass
 - **Progress is continuous.** The artifact and context carry forward into the next conversation or call so there is no cold start.
 - **Engagement signals fit.** Refining, saving, or continuing the artifact is the qualification. No extra forms.
 - **Every CTA is a tool.** Address each call to action with a direct, playable tool that delivers value and collects dogfooding data at the same time.
+- **Time-sensitive availability is part of the continuation.** Surface upcoming sessions and remaining spots as concrete next steps, not as pressure.
 
 ## Default Path (No Preamble)
 
@@ -40,13 +41,15 @@ Value-first approach for consulting sites. Jump straight into usable output. Ass
 4. **Calls to action that keep moving**
    After the artifact appears:
    - Primary: **Continue this.** (calendar opens with the artifact and notes already attached)
+   - Supporting line under the button: “Next available sessions: [date] — 3 spots left this week” (or similar live count)
    - Secondary: Save link / Share / Copy the shipping seed
 
    After any refinement the primary CTA tightens:
    - **Pick up exactly where this left off.**
+   - Same spots-left note remains visible and updates with the booking context.
 
 5. **Handoff with zero reset**
-   Booking confirmation and calendar invite carry the generated snapshot, micro-features, and refinement history. The call starts as the next increment, not an introduction.
+   Booking confirmation and calendar invite carry the generated snapshot, micro-features, and refinement history. The call starts as the next increment, not an introduction. Limited spots make the continuation concrete rather than open-ended.
 
 ## Optional “Why and How” (Off by Default)
 
@@ -65,6 +68,7 @@ These notes can be collapsed again. They do not interrupt the default path or ap
 - Default experience treats them as a peer already in the room: here is the first ship, refine it if you want, continue when ready.
 - Explanation is available on request rather than required.
 - Engagement with the artifact (refine, save, book) is the only signal needed. No additional qualification steps.
+- Time-sensitive session availability is factual information that helps the right customer act, not a sales tactic.
 
 ## Implementation Notes
 
@@ -74,7 +78,8 @@ These notes can be collapsed again. They do not interrupt the default path or ap
 - Frame every CTA as continuation of work already done, not as a new sales conversation.
 - The site itself dogfoods the principle: it ships a useful response to the visitor’s input before any extended engagement.
 - Address each CTA as quickly as possible with a direct tool that lets the visitor play with the value while collecting the data needed for dogfooding.
+- Surface time-sensitive upcoming sessions and remaining spots directly under or inside the primary Continue this tool (e.g., live count, next available window, claim-spot button that pre-loads the artifact). Keep the language factual and continuation-oriented.
 
 ## Result
 
-Right customers get straight to usable output and a continuous handoff. Anyone who wants the why and how can turn it on without changing the core experience for everyone else. The first interaction starts the real work and demonstrates competence at the same time.
+Right customers get straight to usable output and a continuous handoff. Anyone who wants the why and how can turn it on without changing the core experience for everyone else. The first interaction starts the real work and demonstrates competence at the same time. Limited spots and upcoming sessions make the next step concrete without adding friction or preamble.
